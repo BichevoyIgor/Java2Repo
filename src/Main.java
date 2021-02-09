@@ -35,7 +35,7 @@ public class Main {
             repeatWords.put(s[i], repeat);
         }
         for (Map.Entry<String, Integer> word : repeatWords.entrySet()) {
-            System.out.printf("Слово \"%s\" встречается %d раз\n", word.getKey(), word.getValue());
+            System.out.printf("Слово \"%s\" встречается %d раз%n", word.getKey(), word.getValue());
         }
     }
 }
